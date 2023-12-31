@@ -179,7 +179,7 @@ body {
             .media-link {
                 text-decoration: none;
                 color: var(--accent-color);
-                font-size: var(--subtitle);
+                font-size: var(--title-size);
             }
         .last-post {
             grid-area: 1/3/3/4;
