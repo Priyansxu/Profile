@@ -1,45 +1,58 @@
 html {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: sans-serif; 
 }
+
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --primary-bg: #171717;
-    --secondary-bg: #262626;
-    --accent-bg: #4f46e5;
+  --primary-bg: #171717;
+  --secondary-bg: #262626;
+  --accent-bg: #4f46e5;
 
-    --primary-color: #fff;
-    --secondary-color: rgba(255,255,255, 70%);
-    --accent-color: #818cf8;
+  --primary-color: #fff;
+  --secondary-color: rgba(255, 255, 255, 0.7);
+  --accent-color: #818cf8;
 
-    --border-color: rgba(255,255,255, 30%);
-    
-    --username-size: 32px;
-    --title-size: 28px;
-    --subtitle: 24px;
+  --border-color: rgba(255, 255, 255, 0.3);
+
+  --username-size: 32px;
+  --title-size: 28px;
+  --subtitle: 24px;
 }
 
 body {
-    
+  font-size: 16px; /* Set a base font size */
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+  line-height: 1.5;
 }
 
-/* ---------- body element's */
+.profile-header {
+  background: url('/images/banner.jpg') center;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  backdrop-filter: blur(20px); 
+  -webkit-backdrop-filter: blur(20px); 
+}
+
+
 .container {
-    height: 100vh;
-    backdrop-filter: blur(20px);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
 
+
+/// 
 .profile-card {
     width: clamp(428px, 990px, 990px);
     height: 670px;
