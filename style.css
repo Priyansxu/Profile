@@ -262,6 +262,6 @@ body {
             .data {gap: 20px;}
 }
 
-@media (max-width: 380px) { 
+@media (max-width: 580px) { 
     .profile-header { 
     background-size: 100% auto; } }
