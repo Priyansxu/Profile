@@ -239,7 +239,7 @@ body {
         border-radius: 0;
     }
         .profile-header {
-            border-radius: 0;
+            border-radius: 20;
         }
             .main-profile {
                 inset: calc(100% - 75px) auto auto 50%;
