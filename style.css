@@ -239,7 +239,7 @@ body {
         border-radius: 0;
     }
         .profile-header {
-            border-radius: 20;
+            border-radius: 0;
         }
             .main-profile {
                 inset: calc(100% - 75px) auto auto 50%;
@@ -262,6 +262,6 @@ body {
             .data {gap: 20px;}
 }
 
-@media (max-width: 780px) { 
+@media (max-width: 380px) { 
     .profile-header { 
     background-size: 100% auto; } }
