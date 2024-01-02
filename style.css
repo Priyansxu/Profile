@@ -102,12 +102,12 @@ body {
     .profile-actions {
         display: grid;
         grid-template-rows: repeat(2, max-content) auto;
-        gap: 20px;
+        gap: 15px;
         margin-top: 30px;
     }
     .profile-actions button {
         all: unset;
-        gap: 20px;
+        gap: 15px;
         padding: 10px;
         color: var(--primary-color);
         border: 2px solid var(--accent-bg);
@@ -124,7 +124,7 @@ body {
     background: linear-gradient(to bottom left, #fff2, transparent);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     padding: 10px;
     border-radius: 10px;
     position: relative;
@@ -132,7 +132,7 @@ body {
 }
         .bio-header {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             border-bottom: 1px solid var(--border-color);
             color: var(--secondary-color);
         }
@@ -140,7 +140,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 2fr 1fr;
-        gap: 20px;
+        gap: 15px;
     }
         .data {
             grid-area: 1/1/2/3;
@@ -164,7 +164,7 @@ body {
                 align-items: center;
 
                 background-color: var(--secondary-bg);
-                gap: 20px;
+                gap: 15px;
                 padding: 15px;
                 border-radius: 10px;
             }
@@ -186,7 +186,7 @@ body {
 
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 15px;
         }
             .media-link {
                 text-decoration: none;
@@ -202,7 +202,7 @@ body {
 
             display: grid;
             grid-template-rows: 70% auto max-content;
-            gap: 10px;
+            gap: 15px;
         }
             .post-cover {
                 position: relative;
