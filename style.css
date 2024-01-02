@@ -127,19 +127,8 @@ body {
     padding: 10px;
     border-radius: 10px;
     position: relative;
-
     border: 1px solid rgba(255, 255, 255, 0.1);
-
     animation: movingEdge 5s linear infinite;
-}
-
-@keyframes movingEdge {
-    from {
-        background: linear-gradient(to top right, #fff2, transparent);
-    }
-    to {
-        background: linear-gradient(to bottom left, #fff2, transparent);
-    }
 }
         .bio-header {
             display: flex;
@@ -287,3 +276,12 @@ body {
 @media (max-width: 580px) { 
     .profile-header { 
     background-size: 100% auto; } }
+
+@keyframes movingEdge {
+    from {
+        background: linear-gradient(to top right, #fff2, transparent);
+    }
+    to {
+        background: linear-gradient(to bottom left, #fff2, transparent);
+    }
+}
