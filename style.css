@@ -130,7 +130,11 @@ body {
      position: relative; 
      border: 1px solid rgba(255, 255, 255, 0.1); 
      animation: movingEdge 5s linear infinite; 
+     -webkit-animation: movingEdge 5s linear infinite;
+     -moz-animation: movingEdge 5s linear infinite; 
+     -o-animation: movingEdge 5s linear infinite; 
  }
+
         .bio-header {
             display: flex;
             gap: 15px;
