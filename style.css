@@ -152,6 +152,7 @@ body {
             text-align: center;
             border: 1px solid var(--border-color);
             border-radius: 15px;
+            background: linear-gradient(to bottom left, #fff2, transparent);
         }
             .important-data {
                 display: flex;
@@ -183,6 +184,7 @@ body {
             color: var(--secondary-color);
             padding: 15px;
             border-radius: 10px;
+            background: linear-gradient(to bottom left, #fff2, transparent);
 
             display: flex;
             align-items: center;
