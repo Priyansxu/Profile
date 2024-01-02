@@ -121,7 +121,7 @@ body {
 
  .bio {
     color: var(--primary-color);
-    background: linear-gradient(to bottom left, #fff2, transparent);
+    background: linear-gradient(to bottom left, #fdf2, transparent);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -152,7 +152,7 @@ body {
             text-align: center;
             border: 1px solid var(--border-color);
             border-radius: 15px;
-            background: linear-gradient(to bottom left, #fff2, transparent);
+            background: linear-gradient(to bottom left, #fdf2, transparent);
         }
             .important-data {
                 display: flex;
@@ -185,12 +185,12 @@ body {
             padding: 10px;
             border: 1px solid var(--border-color);
             border-radius: 10px;
-            background: linear-gradient(to bottom left, #fff2, transparent);
+            background: linear-gradient(to bottom left, #fdf2, transparent);
 
             display: flex;
             align-items: center;
             gap: 10px;
-            height: 40px;
+            height: 70px;
         }
             .media-link {
                 text-decoration: none;
