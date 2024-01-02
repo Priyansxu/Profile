@@ -278,10 +278,10 @@ body {
     background-size: 100% auto; } }
 
 @keyframes movingEdge {
-    from {
-        background: linear-gradient(to top right, #fff2, transparent);
+    0% {
+        background-position: 100% 0;
     }
-    to {
-        background: linear-gradient(to bottom left, #fff2, transparent);
+    100% {
+        background-position: 0 100%;
     }
 }
