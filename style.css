@@ -118,9 +118,9 @@ body {
     background-color: var(--accent-bg)
     }
 
-    .bio {
+ .bio {
     color: var(--primary-color);
-    background-color: var(--secondary-bg);
+    background: linear-gradient(to bottom left, #fff2, transparent);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -128,7 +128,6 @@ body {
     border-radius: 10px;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    animation: movingEdge 5s linear infinite;
 }
         .bio-header {
             display: flex;
@@ -276,11 +275,3 @@ body {
 @media (max-width: 580px) { 
     .profile-header { 
     background-size: 100% auto; } }
-
-@keyframes movingEdge {
-     0% { background-position: 0% 0%; }
-    25% { background-position: 100% 0%; }
-    50% { background-position: 100% 100%; }
-    75% { background-position: 0% 100%; }
-   100% { background-position: 0% 0%; }
-}
