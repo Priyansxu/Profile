@@ -102,11 +102,12 @@ body {
     .profile-actions {
         display: grid;
         grid-template-rows: repeat(2, max-content) auto;
-        gap: 10px;
+        gap: 20px;
         margin-top: 30px;
     }
     .profile-actions button {
         all: unset;
+        gap: 20px;
         padding: 10px;
         color: var(--primary-color);
         border: 2px solid var(--accent-bg);
@@ -123,7 +124,7 @@ body {
     background: linear-gradient(to bottom left, #fff2, transparent);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
     border-radius: 10px;
     position: relative;
@@ -131,7 +132,7 @@ body {
 }
         .bio-header {
             display: flex;
-            gap: 10px;
+            gap: 20px;
             border-bottom: 1px solid var(--border-color);
             color: var(--secondary-color);
         }
@@ -163,6 +164,7 @@ body {
                 align-items: center;
 
                 background-color: var(--secondary-bg);
+                gap: 20px;
                 padding: 15px;
                 border-radius: 10px;
             }
@@ -184,7 +186,7 @@ body {
 
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 20px;
         }
             .media-link {
                 text-decoration: none;
