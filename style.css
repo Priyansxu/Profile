@@ -129,10 +129,7 @@ body {
      border-radius: 10px; 
      position: relative; 
      border: 1px solid rgba(255, 255, 255, 0.1); 
-     animation: movingEdge 5s linear infinite; 
-     -webkit-animation: movingEdge 5s linear infinite;
-     -moz-animation: movingEdge 5s linear infinite; 
-     -o-animation: movingEdge 5s linear infinite; 
+     background: linear-gradient(to bottom left, #fff2, transparent);
  }
 
         .bio-header {
@@ -289,9 +286,3 @@ body {
     .profile-header { 
     background-size: 100% auto; } }
 
-@keyframes movingEdge { 0% 
-    {background-position: 0% 0%; } 25% 
-    {background-position: 100% 0%; } 50% 
-    {background-position: 100% 100%; } 75% 
-    {background-position: 0% 100%; } 100% 
-    {background-position: 0% 0%; } }
