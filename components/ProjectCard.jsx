@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import aizen from "../public/aizen.jpg";
+import aizen from "../public/kyros.png";
 
 const ProjectCard = () => {
   const projects = [
     {
       id: 1,
       image: aizen,
-      title: "Aizen",
+      title: "Kyros",
       description: "Create beautiful images and gifs of your source code",
       link: "/work/aizen",
     },
