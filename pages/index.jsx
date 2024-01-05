@@ -4,7 +4,6 @@ import Image from "next/image";
 import Avatar_Black from "../public/Avatar-black.svg";
 import Avatar_White from "../public/Avatar-white.svg";
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
 import Head from "next/head";
 import { useEffect } from "react";
 
@@ -73,9 +72,6 @@ export default function Home() {
               for in an elegant, efficient, and robust design of the UI.
             </p>
           </div>
-        </div>
-        <div className="mt-28 mx-auto">
-          <Experience />
         </div>
         <div className="mt-28 mx-auto ">
           <Contact />
