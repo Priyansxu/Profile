@@ -5,7 +5,7 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import aizen from "../../public/work/kyros.png";
+import aizen from "../../public/kyros.png";
 
 export default function Aizen() {
   const { systemTheme, theme, setTheme } = useTheme();
