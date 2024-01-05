@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TfiInstagramAlt, TfiTwitterAlt } from "react-icons/tfi";
+import { TfiInstagram, TfiTwitterAlt } from "react-icons/tfi";
 import Rectangle from "../public/Rectangle.svg";
 
 const Contact = () => {
@@ -31,7 +31,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className=" flex align-middle items-center font-jak font-bold space-x-1 w-max "
           >
-            <TfiInstagramAlt className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
+            <TfiInstagram className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#ff339c]">
               priyansxu_gupta
             </h5>
