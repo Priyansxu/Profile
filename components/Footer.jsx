@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Footer = () => {
   return (
     <div className="flex select-none text-sm py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
