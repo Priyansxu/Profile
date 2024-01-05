@@ -22,7 +22,7 @@ const Contact = () => {
           >
             <TfiTwitterAlt className="text-[#518FC7] dark:text-[#2498fe] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#2498fe]">
-              pranjalshikhar
+              priyansxu_gupta
             </h5>
           </a>
           <a
@@ -33,7 +33,7 @@ const Contact = () => {
           >
             <TfiLinkedin className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#ff339c]">
-              pranjalshikhar
+              priyansxu_gupta
             </h5>
           </a>
         </div>
