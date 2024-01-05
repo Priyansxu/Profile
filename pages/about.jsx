@@ -3,7 +3,7 @@ import Image from "next/image";
 import aboutImage from "../public/Priyanshu.jpg";
 import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
-import love_black from "../public/love_black.svg";
+import love_black from "../public/love-black.svg";
 import love_white from "../public/love-white.svg";
 import Whale from "../public/Whale.svg";
 import { useEffect } from "react";
