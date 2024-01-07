@@ -4,8 +4,8 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
-import pranjal_header_black from "../public/pranjal-header-black.svg";
-import pranjal_header_white from "../public/pranjal-header-white.svg";
+import header_black from "../public/header-black.png";
+import header_white from "../public/header-white.png";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -70,9 +70,9 @@ const Header = () => {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <Image src={pranjal_header_white} alt="header" width="100" />
+              <Image src={header_white} alt="header" width="100" />
             ) : (
-              <Image src={pranjal_header_black} alt="header" width="100" />
+              <Image src={header_black} alt="header" width="100" />
             )}
           </Link>
         </div>
