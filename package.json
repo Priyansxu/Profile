@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-v3",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,16 +19,10 @@
     "next-sitemap": "^4.0.7",
     "next-themes": "^0.2.1",
     "postcss": "8.4.23",
-    "react": "18.2.0",  // Added for react-intersection-observer
-    "react-dom": "18.2.0",  // Added for react-intersection-observer
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-vertical-timeline-component": "^3.6.0",
     "tailwindcss": "3.3.1"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.8.3",
-    "@next/env": "^13.3.0",
-    "vercel": "^28.4.0",
-    "wrangler": "^2.42.0"  // Added for @cloudflare/next-on-pages
   }
 }
