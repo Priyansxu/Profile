@@ -27,4 +27,5 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.8.3"
+  }
 }
