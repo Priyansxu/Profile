@@ -1,4 +1,5 @@
 import "./globals.css";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { Provider } from "@/components/provider";
 
@@ -64,7 +65,7 @@ export const metadata: Metadata = {
         height: 600,
       },
       {
-        url: "https://priyanshu.is-a.dev/dark.jpg",
+        url: "./image/dark.jpg",
         width: 1800,
         height: 1600,
         alt: "Developer// Designer//",
