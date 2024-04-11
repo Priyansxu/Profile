@@ -65,7 +65,7 @@ export const metadata: Metadata = {
         height: 600,
       },
       {
-        url: "./image/dark.jpg",
+        url: "/dark.jpg",
         width: 1800,
         height: 1600,
         alt: "Developer// Designer//",
