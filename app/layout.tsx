@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     siteName: "Priyanshu",
     images: [
       {
-        url: "https://priyanshu.is-a.dev/dark.jpg",
+        url: "/dark.jpg",
         width: 800,
         height: 600,
       },
