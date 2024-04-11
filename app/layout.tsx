@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://priyanshu.is-a.dev"),
   openGraph: {
     title: "Priyanshu",
-    description: "Developer// Designer//",
+    description: "Shadowed soul from land unknown.",
     url: "https://priyanshu.is-a.dev",
     siteName: "Priyanshu",
     images: [
