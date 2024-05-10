@@ -32,7 +32,6 @@ const spaceMono = localFont({
 
 export const metadata: Metadata = {
   title: "Priyanshu",
-  generator: "Next.js",
   applicationName: "Gupta's info",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -45,7 +44,6 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Priyanshu", url: "https://instagram.com/priyansxu_gupta" }],
   creator: "Priyanshu",
-  publisher: "Priyanshu",
   alternates: {},
   formatDetection: {
     email: false,
