@@ -4,8 +4,6 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import robot from "@/public/images/robot.png";
-
 export default function Home() {
   return (
     <section className="flex flex-col lg:flex-row">
@@ -43,12 +41,6 @@ export default function Home() {
             </div>
           </div>
         </Wrapper>
-      </section>
-
-      {/* second half */}
-
-      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#d6ebe9] p-9">
-        <Image src={robot} alt="Man sitting in wheelchair" />
       </section>
     </section>
   );
