@@ -4,8 +4,6 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import boyAndGirl from "@/public/images/boy-and-girl.png";
-
 export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row">
