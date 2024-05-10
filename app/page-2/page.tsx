@@ -4,12 +4,10 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import manWIthRobot from "@/public/images/man-with-robot.png";
-
 export default function Home() {
   return (
-    <section className="flex flex-col lg:flex-row">
-      <section className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
+    <div className="flex flex-col lg:flex-row">
+      <div className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
@@ -36,13 +34,7 @@ export default function Home() {
             </div>
           </div>
         </Wrapper>
-      </section>
-
-      {/* second half */}
-
-      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#e0f5ff] p-9">
-        <Image src={manWIthRobot} alt="Man sitting in wheelchair" />
-      </section>
-    </section>
+      </div>
+    </div>
   );
 }
