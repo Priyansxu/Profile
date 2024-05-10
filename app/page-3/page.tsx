@@ -8,8 +8,8 @@ import boyAndGirl from "@/public/images/boy-and-girl.png";
 
 export default function Home() {
   return (
-    <section className="flex flex-col lg:flex-row">
-      <section className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
+    <div className="flex flex-col lg:flex-row">
+      <div className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
@@ -36,13 +36,7 @@ export default function Home() {
             </div>
           </div>
         </Wrapper>
-      </section>
-
-      {/* second half */}
-
-      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#ffefd6] p-9">
-        <Image src={boyAndGirl} alt="Boy and girl playing with robot" />
-      </section>
-    </section>
+      </div>
+    </div>
   );
 }
