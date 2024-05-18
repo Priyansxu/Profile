@@ -1,5 +1,6 @@
 import "./globals.css";
 import Image from "next/image";
+import Head from "next/head";
 import type { Metadata } from "next";
 import { Provider } from "@/components/provider";
 
@@ -84,6 +85,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+     <Head>
+     <meta name="google-site-verification" content="Xg5U8CHuKB1K4w5IviBe8YCMebJl0NAwl2f_WArwERc" />
+     </Head>
       <body className={`${spaceMono.className}`}>
         <Provider attribute="class" defaultTheme="system" enableSystem>
           <main
