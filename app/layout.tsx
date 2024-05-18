@@ -58,12 +58,12 @@ export const metadata: Metadata = {
     siteName: "Priyanshu",
     images: [
       {
-        url: "/dark.jpg",
+        url: "../public/priyanshu.png",
         width: 800,
         height: 600,
       },
       {
-        url: "/dark.jpg",
+        url: "../public/priyanshu.png",
         width: 1800,
         height: 1600,
         alt: "Developer// Designer//",
