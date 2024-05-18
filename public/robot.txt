@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://priyanshu.is-a.dev/
+
+# Sitemaps
+Sitemap: https://priyanshu.is-a.dev/sitemap.xml
