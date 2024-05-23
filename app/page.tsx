@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row">
-      <div className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
+      <div className="flex h-screen w-full flex-col justify-between p-9">
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
