@@ -17,7 +17,15 @@ export default function Home() {
             </span>
             <p className="pb-6 font-medium">
              I like programming discord bots  creating websites.
-             Experience in Python, HTML, CSS and Javascript. i also design graphics whenever needed! 
+             Experience in Python, HTML, CSS and Javascript. i also design graphics whenever needed! BTW, I JUST CREATED AN AI BOT {" "}              
+     <a href="https://top.gg/bot/1238461418999648277"
+                target="_blank"
+                rel="noreferrer"
+                className="pb-1 text-zinc-800 dark:text-zinc-100 underline font-medium"
+              >
+                Vexel
+              </a>{" "}
+           add it to your server!
             </p>
 
             <div className="">
