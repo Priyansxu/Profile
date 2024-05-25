@@ -16,7 +16,7 @@ export default function Home() {
               03
             </span>
             <p className="pb-6 font-medium">
-             Curiosity about the human mind drives my interest in psychology. I enjoys exploring topics like personality traits and cognitive biases.
+             Curiosity about the human mind drives my interest in psychology. I enjoy exploring topics like personality traits and cognitive biases.
              Captivated by the mysteries of space , spending my free time learning about astronomy and following the latest development in space exploration.
             </p>
 
