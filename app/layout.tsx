@@ -85,9 +85,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-     <Head>
-     <meta name="google-site-verification" content="Xg5U8CHuKB1K4w5IviBe8YCMebJl0NAwl2f_WArwERc" />
-     </Head>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="Xg5U8CHuKB1K4w5IviBe8YCMebJl0NAwl2f_WArwERc"
+        />
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="df857c47-4d1f-414d-a713-6d7f9e0feec6"
+        ></script>
+      </Head>
       <body className={`${spaceMono.className}`}>
         <Provider attribute="class" defaultTheme="system" enableSystem>
           <main
