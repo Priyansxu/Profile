@@ -17,7 +17,7 @@ export default function Home() {
             </span>
             <p className="pb-6 font-medium">
              I like programming discord bots, graphics designing and creating websites.
-             Experience in Python, HTML, tailwind-css and Javascript. <strong>I just created an advance Ai discord bot</strong> {" "}              
+             Experience in Python, HTML, tailwind-css and Javascript. I created an advance Ai discord bot</strong> {" "}              
      <a href="https://top.gg/bot/1238461418999648277"
                 target="_blank"
                 rel="noreferrer"
@@ -25,7 +25,7 @@ export default function Home() {
               >
                 Vexel
               </a>{" "}
-           <strong>add it to your server!</strong>
+           which is now verified, add it to your server!</strong>
             </p>
 
             <div className="">
