@@ -17,7 +17,7 @@ export default function Home() {
             </span>
             <p className="pb-6 font-medium">
              I like programming discord bots, graphics designing and creating websites.
-             Experience in Python, HTML, tailwind-css and Javascript. I created an advance Ai discord bot {" "}              
+             Experience in Python, tailwind-css and Javascript. I created an advance Ai discord bot {" "}              
      <a href="https://top.gg/bot/1238461418999648277"
                 target="_blank"
                 rel="noreferrer"
