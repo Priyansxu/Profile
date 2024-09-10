@@ -41,7 +41,7 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
           href="/"
           className={`flex items-center text-2xl font-bold dark:text-white`}
         >
-          Priyanshu.{" "}
+          Priyanshu{" "}
           <span
             className={`text-sm font-bold group ml-2 inline-block rounded-3xl bg-[#fafafa] px-3 text-black`}
           >
