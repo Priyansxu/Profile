@@ -27,17 +27,17 @@ export default function Home() {
               </a>{" "}
             </p>
 
-            <div className="">
-              <Button size="xl" className="w-full font-bold" variant="brand">
-                <a
-                  href="mailto:cloudypriyanshu@gmail.com"
+            <div className=""> <a
+            href="mailto:priyansxu@proton.me"
                   target="_blank"
                   rel="noreferrer"
                   className="pb-1 dark:text-zinc-800 text-zinc-100"
                 >
+             <Button size="xl" className="w-full font-bold" variant="brand">
+
                   E-mail me
-                </a>{" "}
               </Button>
+                </a>
             </div>
           </div>
         </Wrapper>
