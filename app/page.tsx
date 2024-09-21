@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
@@ -27,7 +28,7 @@ export default function Home() {
               </a>{" "}
             </p>
 
-            <div className=""> <a
+            <div className=""> <Link
             href="mailto:priyansxu@proton.me"
                   target="_blank"
                   rel="noreferrer"
@@ -37,7 +38,7 @@ export default function Home() {
 
                   E-mail me
               </Button>
-                </a>
+                </Link>
             </div>
           </div>
         </Wrapper>
